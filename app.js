@@ -104,8 +104,8 @@ const createSlider = () => {
   }
   else{
     alert("Please don't put slider change duration value less than 1 second.");
-    document.getElementById('duration').value = null;
   }
+  document.getElementById('duration').value = null;
 }
 
 // change slider index 
